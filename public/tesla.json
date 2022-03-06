@@ -1,0 +1,7 @@
+{
+    "id": "tesla-model-s",
+    "name": "Model S",
+    "year": 2012,
+    "color": "white",
+    "image": "https://s3.amazonaws.com/drivrr-images/tesla-model-s.jpg"
+}

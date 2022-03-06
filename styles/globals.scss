@@ -1,0 +1,53 @@
+@import "./variables";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #192d4d;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+#app {
+  display: flex;
+}
+
+button {
+  background: $pink-1;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+input,
+select {
+  border-radius: 6px;
+  border: 1px solid $gray-1;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.71;
+  height: 40px;
+  padding-left: 10px;
+}
